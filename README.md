@@ -21,4 +21,3 @@ I would like to get a statement with date, amount and balance printed
 As a user
 I would like to see a stored record of my transactions
 ```
-

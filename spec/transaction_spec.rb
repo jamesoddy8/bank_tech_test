@@ -16,5 +16,11 @@ describe Transaction do
     expect(subject.credit).to eq(1000)
   end
 
-  
+  it 'has a debit of 40000' do
+    expect(subject.debit).to eq(40000)
+  end
+
+  it 'has a balance value of 50' do
+    expect(subject.balance).to eq(39950)
+  end
 end

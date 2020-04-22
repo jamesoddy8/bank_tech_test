@@ -1,7 +1,7 @@
-require "transaction"
+require 'transaction'
 
 describe Transaction do
-  transaction = { date: '22/04/2020', credit: 1000, debit: 40000, balance: 39950 }
+  transaction = { date: '22/04/2020', credit: 1000, debit: 40_000, balance: 39_950 }
   subject { described_class.new(transaction) }
 
   it 'creates a new transaction' do
@@ -17,10 +17,10 @@ describe Transaction do
   end
 
   it 'has a debit of 40000' do
-    expect(subject.debit).to eq(40000)
+    expect(subject.debit).to eq(40_000)
   end
 
   it 'has a balance value of 50' do
-    expect(subject.balance).to eq(39950)
+    expect(subject.balance).to eq(39_950)
   end
 end

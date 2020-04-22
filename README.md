@@ -14,6 +14,11 @@ I would like to withdraw money from my account
 ```
 ```
 As a user
+So that I don't get charged for going into my overdraft
+I would like to get an error when I try to withdraw more than my balance
+```
+```
+As a user
 So I can see how much money is in my account
 I would like to get a statement with date, amount and balance printed
 ```

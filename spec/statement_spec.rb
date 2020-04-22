@@ -1,14 +1,13 @@
 require "statement"
 
 describe Statement do
-
-  context "new statement" do
-    describe "#initialize" do
-      it "should be empty" do
-        expect(subject.log).to eq []
+    describe "statement" do
+      subject{ described_class.new(50) }
+      it "creates a new statement" do
+        expect(subject).to be_instance_of(described_class)
       end
     end
-  end 
+   
     # describe "create a new transaction" do
     #   it "statement should show new transaction" do
     #     subject.log << transaction

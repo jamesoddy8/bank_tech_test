@@ -10,28 +10,24 @@ describe Account do
     end
 
     describe "#deposit" do
+      subject { described_class.new }
         it "can deposit money" do
-          account = Account.new
-          account.deposit(400)
-          expect(account.balance).to eq(400)
+          expect { subject.deposit(400) }
+            .to change(subject, :balance).by (400)
       end
     end
 
     describe "#withdraw" do
       it "can withdraw money" do
-        account = Account.new
-        account.deposit(1000)
-        account.withdraw(200)
-        expect(account.balance).to eq(800)
+        expect {subject.deposit(1000) }
+        .to change(subject, :balance).by (1000)
+        expect { subject.withdraw(200) }
+          .to change(subject, :balance).by(-200)
       end
     end
 
-    describe "#balance" do
-      it "can see balance" do
-        account = Account.new
-        account.deposit(200)
-        expect(account.balance).to eq(200)
-      end
+    it "creates a new account" do
+      expect(subject).to be_instance_of(described_class)
     end
   end
 end

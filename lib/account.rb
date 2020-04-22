@@ -19,7 +19,7 @@ class Account
   def withdraw(amount, date = Time.new.strftime('%d/%m/%Y'))
     if @balance - amount > 0
       @balance -= amount
-      details = { date: date, credit: amount, debit: 0, balance: @balance }
+      details = { date: date, credit: 0, debit: amount, balance: @balance }
       update_history(Transaction.new(details))
     else
       puts "Error accessing funds: you tried to withdraw £#{amount}, with £#{@balance} in your account"
@@ -35,4 +35,4 @@ class Account
   def update_history(transaction)
     @transactions.log(transaction)
   end
-end 
+end

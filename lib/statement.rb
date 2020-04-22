@@ -7,8 +7,8 @@ class Statement
   def print
     puts ' date          || credit || debit || balance'
     puts '--------------------------------------------'
-    @transactions.each do |transaction|
-      puts "#{transaction.date}    || #{transaction.credit}    || #{transaction.debit}    || #{transaction.balance}"
+    @log.each do |log|
+      puts "#{log.date}     || #{log.credit}   || #{log.debit}   || #{log.balance}"
     end
   end
 end

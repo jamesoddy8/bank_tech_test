@@ -21,6 +21,16 @@ I would like to get a statement with date, amount and balance printed
 As a user
 I would like to see my balance after transactions
 ```
+# Approach #
+My original plan was to allow for the user to interact with the code via a command line interface, however after much deliberation in the planning process and futile attempts to hardcode if statements into the code I decided to stick to interacting via IRB.
+
+# Coding process #
+Throughout the process I tried to keep to the DRY and Single Responsibility Principle (although with some parts of the code DRY is still used).
+
+I structured the code for ease of readability using mixins and kept the composition clean by maintaining low coupling to allow the code to be easily changed in the future if need be.
+
+# Screenshot of finished project #
+![Screenshot](final.png)
 
 # How to run the program #
 

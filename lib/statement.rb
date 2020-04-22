@@ -1,14 +1,14 @@
 class Statement
 
-  def initialize(log)
-    @log = log
+  def initialize(transaction)
+    @transaction = transaction
   end
 
   def print
     puts ' date          || credit || debit || balance'
     puts '--------------------------------------------'
-    @log.each do |log|
-      puts "#{log.date}     || #{log.credit}   || #{log.debit}   || #{log.balance}"
+    @transaction.each do |transaction|
+      puts "#{transaction.date}     || #{transaction.credit}   || #{transaction.debit}   || #{transaction.balance}"
     end
   end
 end

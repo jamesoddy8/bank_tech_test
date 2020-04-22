@@ -29,9 +29,6 @@ Throughout the process I tried to keep to the DRY and Single Responsibility Prin
 
 I structured the code for ease of readability using mixins and kept the composition clean by maintaining low coupling to allow the code to be easily changed in the future if need be.
 
-# Screenshot of finished project #
-![Screenshot](final.png)
-
 # How to run the program #
 
 ## First step: ##
@@ -59,3 +56,5 @@ While in the root directory:
 > account.withdraw(200)
 > account.print_statement
 ```
+# Screenshot of finished project #
+![Screenshot](final.png)

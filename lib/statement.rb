@@ -3,5 +3,5 @@ class Statement
 
   def initialize()
     @log = []
-  end 
+  end
 end

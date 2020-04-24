@@ -14,6 +14,11 @@ I would like to withdraw money from my account
 ```
 ```
 As a user
+So that I don't get charged for going into my overdraft
+I would like to get an error when I try to withdraw more than my balance
+```
+```
+As a user
 So I can see how much money is in my account
 I would like to get a statement with date, amount and balance printed
 ```
@@ -28,9 +33,6 @@ My original plan was to allow for the user to interact with the code via a comma
 Throughout the process I tried to keep to the DRY and Single Responsibility Principle (although with some parts of the code DRY is still used).
 
 I structured the code for ease of readability using mixins and kept the composition clean by maintaining low coupling to allow the code to be easily changed in the future if need be.
-
-# Screenshot of finished project #
-![Screenshot](final.png)
 
 # How to run the program #
 
@@ -59,3 +61,5 @@ While in the root directory:
 > account.withdraw(200)
 > account.print_statement
 ```
+# Screenshot of finished project #
+![Screenshot](final.png)

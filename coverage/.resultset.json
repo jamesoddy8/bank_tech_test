@@ -1,0 +1,192 @@
+{
+  "RSpec": {
+    "coverage": {
+      "/Users/jamesoddy/Desktop/Makers/tech_tests/bank/spec/account_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null,
+          null,
+          1,
+          2,
+          1,
+          2,
+          null,
+          null,
+          null,
+          null,
+          1,
+          1,
+          2,
+          null,
+          2,
+          null,
+          null,
+          null,
+          null,
+          1,
+          1,
+          null,
+          null
+        ]
+      },
+      "/Users/jamesoddy/Desktop/Makers/tech_tests/bank/lib/account.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          null,
+          1,
+          1,
+          null,
+          1,
+          4,
+          4,
+          null,
+          null,
+          1,
+          2,
+          2,
+          2,
+          null,
+          null,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          0,
+          null,
+          null,
+          null,
+          1,
+          0,
+          null,
+          null,
+          1,
+          null,
+          1,
+          3,
+          null,
+          null
+        ]
+      },
+      "/Users/jamesoddy/Desktop/Makers/tech_tests/bank/lib/statement.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          null,
+          null,
+          1,
+          0,
+          0,
+          0,
+          0,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/jamesoddy/Desktop/Makers/tech_tests/bank/lib/transaction.rb": {
+        "lines": [
+          1,
+          1,
+          null,
+          1,
+          8,
+          8,
+          8,
+          8,
+          null,
+          null
+        ]
+      },
+      "/Users/jamesoddy/Desktop/Makers/tech_tests/bank/lib/transaction_history.rb": {
+        "lines": [
+          1,
+          1,
+          null,
+          1,
+          6,
+          null,
+          null,
+          1,
+          3,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/jamesoddy/Desktop/Makers/tech_tests/bank/spec/statement_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          2,
+          1,
+          1,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/jamesoddy/Desktop/Makers/tech_tests/bank/spec/transaction_history_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          3,
+          null,
+          1,
+          1,
+          null,
+          null,
+          1,
+          1,
+          null,
+          null
+        ]
+      },
+      "/Users/jamesoddy/Desktop/Makers/tech_tests/bank/spec/transaction_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          6,
+          null,
+          1,
+          1,
+          null,
+          null,
+          1,
+          1,
+          null,
+          null,
+          1,
+          1,
+          null,
+          null,
+          1,
+          1,
+          null,
+          null,
+          1,
+          1,
+          null,
+          null
+        ]
+      }
+    },
+    "timestamp": 1587725652
+  }
+}
